@@ -36,8 +36,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     endpointsServer project(path: ':backend', configuration: 'endpoints')
-    implementation project(':javaJokes')
-    implementation project(':jokeactivitylibrary')
+    implementation project(':java-jokes')
+    implementation project(':joke-activity-library')
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.google.android.gms:play-services-ads:11.8.0'
     implementation 'com.google.api-client:google-api-client:1.23.0'
